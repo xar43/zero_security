@@ -1,0 +1,52 @@
+name: toggle_timer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: any
+  get: any
+  intl: any
+  path: any
+  uuid: any
+  sqflite: any
+  geolocator: any
+  flutter_svg: any
+  image_picker: any
+  skeletonizer: any
+  url_launcher: any
+  share_plus: any
+  geocoding: any
+  call_log: any
+  record: any
+  audioplayers: any
+  path_provider: any 
+  fast_contacts: any
+  cupertino_icons: any
+  permission_handler: any
+  shared_preferences: any
+  cached_network_image: any
+  internet_connection_checker_plus: any
+  awesome_notifications: any
+  flutter_background_service: any
+  file_picker: any
+  flutter_overlay_window: ^0.5.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
